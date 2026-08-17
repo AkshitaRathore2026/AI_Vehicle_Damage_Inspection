@@ -1,0 +1,39 @@
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+venv/
+.venv/
+env/
+.env
+
+# Test and coverage output
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Tooling
+.mypy_cache/
+.ruff_cache/
+
+.vscode/
+.idea/
+
+storage/uploads/*
+storage/processed/*
+storage/reports/*
+!storage/uploads/.gitkeep
+!storage/processed/.gitkeep
+!storage/reports/.gitkeep
+
+ml/weights/*
+ml/outputs/*
+!ml/weights/.gitkeep
+!ml/outputs/.gitkeep
+
+runs/
+
+# Training dataset and generated YOLO data
+ml/dataset/
+runs/

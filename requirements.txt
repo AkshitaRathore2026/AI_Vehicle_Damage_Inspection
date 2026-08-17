@@ -1,0 +1,41 @@
+# Core API
+fastapi
+uvicorn[standard]
+python-multipart
+
+# Configuration and validation
+pydantic-settings
+email-validator
+python-dotenv
+
+# Database
+SQLAlchemy
+alembic
+psycopg[binary]
+
+# Authentication and security
+PyJWT
+pwdlib[argon2]
+
+# AI and image processing
+ultralytics
+opencv-python
+numpy
+Pillow
+
+# Background processing
+celery
+redis
+
+# PDF reports
+reportlab
+
+# Dashboard
+streamlit
+requests
+pandas
+plotly
+
+# Testing
+pytest
+httpx
